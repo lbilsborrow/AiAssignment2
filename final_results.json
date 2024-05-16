@@ -1,0 +1,78 @@
+[
+  {
+    "model_name": "batch_get_model_1__0.00075__(60, 80)__0.35__64",
+    "lr": 0.00075,
+    "image_size": [60, 80],
+    "crop_size_percent": 0.35,
+    "batch_size": 64,
+    "overall_accuracy": 0.7416892342713608,
+    "mel_accuracy": 0.695906432748538,
+    "other_accuracy": 0.7874720357941835,
+    "precision": 0.9530685920577617,
+    "recall": 0.7874720357941835,
+    "f1": 0.8623928133932217,
+    "confusion_matrix": [
+      [119, 52],
+      [285, 1056]
+    ],
+    "roc_auc": 0.7416892342713607,
+    "overall_score": 4.086311909787888
+  },
+  {
+    "model_name": "get_model_2__0.00075__[45, 60]__0.3__64",
+    "lr": 0.00075,
+    "image_size": [45, 60],
+    "crop_size_percent": 0.3,
+    "batch_size": 64,
+    "overall_accuracy": 0.7603712861572276,
+    "mel_accuracy": 0.7660818713450293,
+    "other_accuracy": 0.7546607009694258,
+    "precision": 0.9619771863117871,
+    "recall": 0.7546607009694258,
+    "f1": 0.8458002507312996,
+    "confusion_matrix": [
+      [131, 40],
+      [329, 1012]
+    ],
+    "roc_auc": 0.7603712861572276,
+    "overall_score": 4.083180710326968
+  },
+  {
+    "model_name": "get_model_3__0.00075__[60, 80]__0.35__64",
+    "lr": 0.00075,
+    "image_size": [60, 80],
+    "crop_size_percent": 0.35,
+    "batch_size": 64,
+    "overall_accuracy": 0.7417088582754425,
+    "mel_accuracy": 0.7309941520467836,
+    "other_accuracy": 0.7524235645041014,
+    "precision": 0.9563981042654028,
+    "recall": 0.7524235645041014,
+    "f1": 0.842237061769616,
+    "confusion_matrix": [
+      [125, 46],
+      [332, 1009]
+    ],
+    "roc_auc": 0.7417088582754425,
+    "overall_score": 4.034476447090006
+  },
+  {
+    "model_name": "batch_get_model_1__0.001__(60, 80)__0.25__64",
+    "lr": 0.001,
+    "image_size": [60, 80],
+    "crop_size_percent": 0.25,
+    "batch_size": 64,
+    "overall_accuracy": 0.732485576357,
+    "mel_accuracy": 0.9064327485380117,
+    "other_accuracy": 0.5585384041759881,
+    "precision": 0.9790849673202614,
+    "recall": 0.5585384041759881,
+    "f1": 0.7113010446343779,
+    "confusion_matrix": [
+      [155, 16],
+      [592, 749]
+    ],
+    "roc_auc": 0.732485576357,
+    "overall_score": 3.7138955688446273
+  }
+]
